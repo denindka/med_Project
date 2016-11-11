@@ -1,0 +1,290 @@
+body {
+	background: url('../img/background.png')  no-repeat;
+	background-size: cover;
+	height: 100%
+
+}
+
+.clearfix::after {
+    content:".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+/* header*/
+.wrapper {
+	position: relative;
+} 
+
+header {
+
+} 
+
+header .logo-container {
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	background-color: white;
+
+}
+
+header .menu {
+	margin: 0;
+	padding: 0;
+	height: 37px;
+	background-color: #74c9c6;
+
+}
+
+.logo {
+	float: left;
+	margin: 8px 0 8px 0;
+	width: 15%;
+}
+
+ img {
+	 max-width: 100%;
+    height: auto;
+}
+
+.list {
+	margin: 20px 0 0 0;
+	float: left;
+	width: 60%;
+	text-align: center;
+}
+
+.list ul {
+	list-style: none;
+}
+
+.list ul li {
+	display: inline-block;
+	margin: 0 3% 0 0; 
+	border-left: 1px dotted grey;
+	padding-left: 3%;
+	height: 15px;
+}
+
+
+.list ul li:first-child {
+	border-left: none;
+	
+}
+
+.list ul a {
+	color: black;
+	text-decoration: none;
+	font-family: Sans;
+	font-size: 12px;
+}
+
+.list li a:hover {
+    color: #ffc5ab; 
+ }
+
+ .search {
+ 	float: right;
+ 	margin: 15px 0 0 0;
+ 	width: 22%;
+ } 
+
+ .search input {
+ 	border: 2px solid #fe824c;
+	width: 50%;
+	float: right;
+ }
+
+input::-webkit-input-placeholder { 
+	padding-left: 7px;
+}
+
+input:-moz-placeholder { 
+	padding-left: 7px; 
+}
+
+input:-ms-input-placeholder {
+	margin-left: 7px;
+}
+
+.button-search {
+	float: right;
+	color: white;
+	font-weight: 400;
+}
+
+.button-search button{
+	background-color: #fe824c;
+	padding: 3px 15px 3px 10px;
+	border: none;
+}
+/*  end header first-part*/
+
+/* header second part*/
+.menu {
+	position: relative;
+	}
+
+ nav.decstop ul{
+	float: left;
+	width: 85%;
+	margin: 0;
+	padding: 0;
+}
+
+nav.decstop li {
+	display: inline-block;
+	margin: 0 2.5% 0 0;
+	padding: 7px;
+}
+
+nav.decstop li img {
+	padding: 0 0 5px 0;
+}
+
+
+.decstop ul li a {
+	color: #fff;
+	margin-top: 25px;
+	font-family: Sans;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.decstop ul li a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.decstop li:hover {
+	padding: 7px;
+	background-color: #51b5b6;
+}
+	
+#nav-wrap{
+	display: none;
+}
+
+.wahlen {
+	margin: 0;
+	background-color: #fe7a41;
+	color: #fff;
+	width: 15%;
+	float: right;
+	height: 37px;
+	padding-top: 8px;
+	text-align: center;
+}
+
+/* end header second part*/
+
+/* content */
+.content {
+	height: 100%;
+}
+
+.start-site {
+	margin-top: 20px;
+}
+
+
+.start-site .seite {
+	color: #fe7a41;
+	text-decoration: underline;
+}
+
+.kontakte {
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.content-form {
+	background-color: #fff;
+	/* min-height:auto 100%;*/
+   min-height: 70vh;
+/* margin-bottom: 12%;*/
+}
+
+.test {
+	margin-left: 20px;
+	width: 100%;
+}
+
+.contact {
+	margin-bottom: 3%;
+}
+
+.contact .telephone {
+	font-weight: bold;
+}
+
+form {
+	margin-right: 20px;
+}
+
+.content h3 {
+	color: #fe7a41;
+}
+hr {
+	width: 70%;
+	margin-left: 0;
+}
+
+.output-value {
+	width: 25%;
+	height: 30px;
+}
+.input-value {
+	width: 25%;
+	height: 30px;
+}
+
+.refresh {
+	margin: 0 2% 0 3%;
+	padding: 3px 5px;
+}
+
+.submit {
+	float: right;
+	padding: 3px 2%;
+	background-color: #fe7a41;
+}
+
+.submit img {
+	margin-right: 3px;
+	border: none;
+}
+
+footer {
+	/*position: absolute;
+	bottom: 0;
+	width: 101%;*/
+	margin: 0;
+	padding: 0;
+	background-color: #5bb9ba;
+	color: #fff;
+
+}
+
+footer li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 2%;
+	margin-top: 32px;
+}
+
+footer li a {
+	color: #fff;
+	font-size: 12px;
+}
+
+footer li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.agreement {
+	padding-bottom: 20px;
+	font-size: 10px;
+}

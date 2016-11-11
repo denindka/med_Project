@@ -1,0 +1,177 @@
+@media (max-width: 991px) {
+	.start-site {
+		display: none
+	}
+
+	.test {
+	margin-left: 0;
+	}
+
+	.hr {
+		width: auto;
+	}
+}
+
+@media (max-width:768px) {
+	.agreement {
+		text-align: center;
+	}
+
+.content-form {
+
+   min-height: 100vh;
+/* margin-bottom: 12%;*/
+}
+
+	.logo {
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+	.list {
+		display: none;
+		width: 35%;
+	}
+	 
+	 .search{
+	 	width: 50%;
+	 }
+
+	.search input {
+		width: 60%;
+	}
+
+
+
+	.decstop {
+		display: none;
+	}
+
+	.mobile-munu {
+		display: block;
+		/*position: absolute;
+		left: 12%;*/
+		float: left;
+		width: 55%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.wahlen {
+		display: none;
+	}
+
+	.start-site {
+		display: none
+	}
+
+	.menu-footer {
+		display: none;
+	}
+
+	.agreement {
+		padding-top: 10px;
+	}
+	/*menu*/
+	#nav-wrap {
+		display: block;
+	}
+
+	#menu-icon {
+		color: #000;
+		width: 36px;
+		height: 34px;
+		/*background: #ecebeb url(../img/home.png);*/
+		cursor: pointer;
+		display: block;
+	}
+	#menu-icon .menu-bar {
+		font-size: 36px;
+		color: #fe7a41;
+		/*margin-right: 6px;*/
+
+	}
+
+	#nav {
+		clear: both;
+		position: absolute;
+		top: 38px;
+		width: 160px;
+		z-index: 1000;
+		padding: 5px;
+		background: #f8f8f8;
+		display: none;
+	}
+	
+	#nav li {
+		padding-top: 12px;
+		padding-left: 10px;
+	}
+
+	#nav a {
+		color: #000;
+		text-decoration: none;
+	}
+	/*end menu*/
+
+}
+
+@media (max-width:588px) {
+	.logo {
+		margin-top: 8px;
+		margin-bottom: 2%;
+		width: 24%;
+
+	}
+
+	.logo img {
+		max-width: 100%;
+	}
+
+	.button-search button{
+		padding: 3px 5px;
+	}
+
+/*	.form {
+		margin-left: 4%;
+	}*/
+}
+
+@media (max-width: 400px) {
+	 .logo {
+		margin-top: 8px;
+		margin-bottom: 1%;
+		width: 30%;
+	}
+	.submit {
+		width: 100%;
+		margin-top: 10px;
+		float: left;
+	}
+
+	.output-value {
+	width: 37%;
+	height: 30px;
+}
+
+	.input-value {
+		width: 37%;
+		height: 30px;
+	}
+
+	.refresh {
+		margin: 0 3% 0 3%;
+		padding: 3px 5px;
+	}
+}
+
+@media (max-width: 457px) {
+	 .logo {
+		margin-top: 10px;
+		margin-bottom: 1%;
+		width: 32%;
+
+	}
+}
+
+
